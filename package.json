@@ -1,5 +1,5 @@
 {
-  "name": "tool-bar",
+  "name": "tool-bar-ide",
   "version": "1.0.0",
   "description": "Package providing customisable tool bar for the Substance IDE",
   "keywords": [
