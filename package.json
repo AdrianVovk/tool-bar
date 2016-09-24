@@ -1,7 +1,7 @@
 {
   "name": "tool-bar",
-  "version": "1.0.1",
-  "description": "Package providing customisable tool bar",
+  "version": "0.0.0",
+  "description": "Package providing customisable tool bar for the Substance IDE",
   "keywords": [
     "toolbar",
     "tool-bar",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "main": "./lib/tool-bar",
   "repository": {
-    "url": "https://github.com/suda/tool-bar"
+    "url": "https://github.com/AdrianVovk/tool-bar"
   },
   "scripts": {
     "lint": "eslint --format tap . && remark ."
