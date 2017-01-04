@@ -2,20 +2,20 @@ menu: [
   {
     label: 'View'
     submenu: [
-      { label: 'Toggle Tool Bar', command: 'tool-bar:toggle' }
+      { label: 'Toggle Tool Bar', command: 'toolbar:toggle' }
     ]
   }
 ],
 'context-menu': {
   '.tool-bar': [
-    { label: '&Hide Tool Bar', command: 'tool-bar:toggle' }
+    { label: '&Hide Tool Bar', command: 'toolbar:toggle' }
     {
       label: '&Position',
       submenu: [
-        { label: 'Top', command: 'tool-bar:position-top' }
-        { label: 'Right', command: 'tool-bar:position-right' }
-        { label: 'Bottom', command: 'tool-bar:position-bottom' }
-        { label: 'Left', command: 'tool-bar:position-left' }
+        { label: 'Top', command: 'toolbar:position-top' }
+        { label: 'Right', command: 'toolbar:position-right' }
+        { label: 'Bottom', command: 'toolbar:position-bottom' }
+        { label: 'Left', command: 'toolbar:position-left' }
       ]
     }
   ]
